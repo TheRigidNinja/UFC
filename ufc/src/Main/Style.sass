@@ -1,0 +1,149 @@
+%reset
+    position: absolute
+    width: 100%
+    height: 100%
+
+#circle
+    position: absolute
+    width: 650px
+    height: 650px
+    border-radius: 50%
+    background: #95989A
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2)
+    left: 50%
+    top: 11%
+
+// -------------------------- //  Section 1  // -------------------------- // 
+.Section1 #backIMG
+    @extend %reset
+    width: calc(100% - 50px)
+    left: 50px
+
+.Section1 #backText
+    position: absolute
+    width: 20%
+    max-width: 400px
+    min-width: 200px
+    left: calc(100% / 2.8)
+    top: calc(100% / 1.15)
+
+.media
+    position: absolute
+    width: 150px
+    height: 100%
+    left: calc(100% - 150px)
+    z-index: 5
+    display: flex
+    flex-flow: column
+    align-items: center
+    justify-content: space-between
+
+#social, #search
+    margin-bottom: 60px
+    width: 20px
+    cursor: pointer
+
+#search
+    margin-top: 40px
+
+
+// ------------------// Navigation Bar // ------------------// 
+#logo, #menu, #close
+    position: absolute
+    left: 150px
+    top: 50px
+    width: 8%
+    min-width: 100px
+    z-index: 5
+
+#menu, #close
+    left: 50px
+    top: 60px
+    width: 20px
+    min-width: 30px
+    cursor: pointer
+
+#close
+    min-width: 25px
+    display: none
+//     animation: close 2s cubic-bezier(1,0,1,.28) infinite
+//     animation-direction: reverse
+
+
+// --------------------------- // Section2 // --------------------------- // 
+.Section2
+    #backIMG2, .row
+        @extend %reset
+
+    .row
+        margin: 0px
+        pad: 0px
+
+    .nav1
+        background: #F5F5F5
+        box-shadow: 0px 0px 10px rgb(0,0,0)
+
+    .nav2
+        background: #F5F5F5
+        opacity: .93
+
+    .container
+        height: 100%
+        display: flex
+        flex-flow: column
+        align-items: center
+        justify-content: center
+        position: absolute
+
+        .empty
+            flex-grow: .5
+
+        .links 
+            flex-grow: .3
+
+            span
+                display: block
+                text-align: center
+                width: 100%
+
+.Sublinks
+    width: 100%
+    display: flex
+    flex-flow: row wrap
+    align-items: flex-end
+    justify-content: space-around
+
+// ------------------ // Nav2
+
+.nav2
+    display: flex
+    flex-flow: column wrap
+    align-items: flex-start
+    justify-content: space-around
+    padding-left: 70px
+
+    a:hover
+        color: #D20A0A !important
+
+// ------------------ // Nav3
+
+.nav3
+    overflow: hidden
+
+.breifInfo
+    width: 250px
+    margin: 0px
+    padding: 0px
+
+    h4
+        background: #D20A0A
+        padding: 15px
+        color: white
+    
+    a
+        padding: 0px 3px
+        font-weight: bold
+
+        i
+            font-size: 16px
+

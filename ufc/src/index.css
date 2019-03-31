@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  left: 0px;
+  top: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+body, section {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.fas {
+  color: #D20A0A;
+}
+
+body {
+  background: #ECECEC;
+}
+
+a {
+  display: block;
+  color: black !important;
+  text-decoration: none !important;
+  padding: 15px 30px;
+  font-size: 20px;
+}
+
+a:hover {
+  font-weight: bold;
+}
+/*# sourceMappingURL=index.css.map */
