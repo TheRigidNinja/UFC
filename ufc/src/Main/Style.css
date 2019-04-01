@@ -195,4 +195,43 @@
 .breifInfo a i {
   font-size: 16px;
 }
+
+.row {
+  position: relative;
+  width: calc(100% - 145px);
+  height: 100%;
+  left: 160px;
+}
+
+.row .cont1, .row .cont3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-flex: .2;
+      -ms-flex-positive: .2;
+          flex-grow: .2;
+}
+
+.row .cont1 h1, .row .cont3 h1 {
+  font-size: 55px;
+}
+
+.Section3 .empty {
+  -webkit-box-flex: .02;
+      -ms-flex-positive: .02;
+          flex-grow: .02;
+}
+
+.cont3 h4, .cont3 h5 {
+  line-height: 40px;
+}
 /*# sourceMappingURL=Style.css.map */
