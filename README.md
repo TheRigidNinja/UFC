@@ -4,9 +4,7 @@
 
 <table>
     <thead>
-        <tr>
-            Markup
-        </tr>
+        <h1>Markup</h1>
     </thead>
     <tbody>
         <tr>
