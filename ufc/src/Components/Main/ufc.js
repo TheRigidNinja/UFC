@@ -20,8 +20,8 @@ class ufc extends Component {
         return(
             <div className="Container">
                 {/* <Section1/> */}
-                {/* <Section2/> */}
-                <Section3/>
+                <Section2/>
+                {/* <Section3/> */}
 
                 <Media/>
             </div>
