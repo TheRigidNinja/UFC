@@ -1,7 +1,8 @@
 # UFC
 
-I trying to turn this dribbble mockup to an actual website using React-Redux, Sass
+I am trying to turn this dribbble mockup to an actual website using React-Redux, Sass.
 
+I also want to create Node.js Restful API;  The idea is to get React  to communicate with Node.js  via a simple HTTP request and intern get Node.js to web scrape the Actually UFC site and pull their live data to my website.
 
 <table>
     <thead>
